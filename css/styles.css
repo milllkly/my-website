@@ -1,16 +1,15 @@
-/* Global Styles */
+
 body {
     background-color: #ffc9f3;
     font-family: 'Arial', sans-serif;
 }
 
-/* Header Styles */
+
 h1.text-center {
-    color: #000000; /* Adjust color to your preference */
+    color: #000000; 
     margin-top: 20px;
 }
 
-/* Carousel Styles */
 .carousel {
     margin: 20px 0;
 }
@@ -18,58 +17,57 @@ h1.text-center {
 .carousel-item img {
     width: 100%;
     height: auto;
-    max-height: 400px; /* Adjust based on your preference */
+    max-height: 400px; 
 }
 
-/* Card Styles */
+
 .card {
     margin: 20px 0;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Optional: Add shadow effect to cards */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
 }
 
 .card img {
-    max-height: 200px; /* Adjust based on your design */
-    object-fit: cover; /* Makes the images fit neatly into the card */
+    max-height: 200px; 
+    object-fit: cover; 
 }
 
-/* Form Styles */
+
 form {
     background-color: #ff80bf;
     padding: 20px;
-    border-radius: 8px; /* Optional: Rounds corners of the form */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); /* Optional: Add shadow effect to form */
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); 
 }
 
-/* Button Styles */
+
 .btn-info {
-    background-color: #d7a4ff; /* Adjust color to match your branding */
-    border-color: #d7a4ff; /* Adjust color to match your branding */
+    background-color: #d7a4ff; 
+    border-color: #d7a4ff; 
 }
 
 .btn-info:hover {
-    background-color: #dc85a9; /* Adjust hover color */
+    background-color: #dc85a9; 
 }
 
-/* Spacing between buttons */
+
 .btn-info + .btn-info {
     margin-left: 10px;
 }
 .btn-custom {
-    background-color: #da94f2; /* Hot pink background */
-    color: #ffffff; /* White text */
-    border: none; /* Removes border */
+    background-color: #da94f2;
+    color: #ffffff; 
+    border: none;
 }
 
 .btn-custom:hover {
-    background-color: #d7a4ff; /* Darker pink for hover effect */
-    color: #ffffff; /* Keeps text color white when hovered */
+    background-color: #d7a4ff; 
+    color: #ffffff;
 }
-/* ... other styles ... */
 
-/* List Group Item Styles for Links */
+
 .list-group-item a {
     text-decoration: none;
-    color: #007bff; /* Bootstrap primary color */
+    color: #007bff;
 }
 
 .list-group-item a:hover {
